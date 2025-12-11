@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/ZoeNBellaLibary2.0.props" />
+</Project>
