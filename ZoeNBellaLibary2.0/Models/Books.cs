@@ -1,5 +1,5 @@
 //This is my C# class for Books. I will store here the information on the books I store 
-namespace ZoeNBellaLibary2.Models
+namespace ZoeNBellaLibary2._0.Models
 {
     //The name of the class is Book
     public class Book
@@ -10,6 +10,8 @@ namespace ZoeNBellaLibary2.Models
         public string Book_Name {get; set;}
         //Storing a small description of what the book is about
         public string Book_Description {get; set;}
+        //Storing The author of the book
+        public string Book_Author {get; set;}
         //The original price Bought at 
         public int Bought_Price {get; set;}
         //I want to display a image when view the book 

@@ -29,3 +29,4 @@
 /workspaces/Final2.0/ZoeNBellaLibary2.0/obj/Debug/net8.0/ZoeNBellaLibary2.0.pdb
 /workspaces/Final2.0/ZoeNBellaLibary2.0/obj/Debug/net8.0/ZoeNBellaLibary2.0.genruntimeconfig.cache
 /workspaces/Final2.0/ZoeNBellaLibary2.0/obj/Debug/net8.0/ref/ZoeNBellaLibary2.0.dll
+/workspaces/Final2.0/ZoeNBellaLibary2.0/obj/Debug/net8.0/ZoeNBellaLibary2.0.csproj.AssemblyReference.cache
