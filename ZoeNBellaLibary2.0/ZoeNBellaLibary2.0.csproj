@@ -7,4 +7,8 @@
     <RootNamespace>ZoeNBellaLibary2._0</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.1" />
+  </ItemGroup>
+
 </Project>
