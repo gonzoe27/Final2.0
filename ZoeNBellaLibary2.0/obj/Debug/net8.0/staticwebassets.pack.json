@@ -13,6 +13,50 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/images/allthebrightplaces.jpg",
+      "PackagePath": "staticwebassets/images/allthebrightplaces.jpg"
+    },
+    {
+      "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/images/bookshelf.jpg",
+      "PackagePath": "staticwebassets/images/bookshelf.jpg"
+    },
+    {
+      "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/images/carmilla.jpg",
+      "PackagePath": "staticwebassets/images/carmilla.jpg"
+    },
+    {
+      "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/images/catchingfire.jpg",
+      "PackagePath": "staticwebassets/images/catchingfire.jpg"
+    },
+    {
+      "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/images/hungergames.jpg",
+      "PackagePath": "staticwebassets/images/hungergames.jpg"
+    },
+    {
+      "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/images/mastersofdeath.jpg",
+      "PackagePath": "staticwebassets/images/mastersofdeath.jpg"
+    },
+    {
+      "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/images/mockingjay.jpg",
+      "PackagePath": "staticwebassets/images/mockingjay.jpg"
+    },
+    {
+      "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/images/silenceofthegirls.jpg",
+      "PackagePath": "staticwebassets/images/silenceofthegirls.jpg"
+    },
+    {
+      "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/images/strangehouses.jpg",
+      "PackagePath": "staticwebassets/images/strangehouses.jpg"
+    },
+    {
+      "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/images/sunriseonthereaping.jpg",
+      "PackagePath": "staticwebassets/images/sunriseonthereaping.jpg"
+    },
+    {
+      "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/images/womenof_Troy.jpg",
+      "PackagePath": "staticwebassets/images/womenof_Troy.jpg"
+    },
+    {
       "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

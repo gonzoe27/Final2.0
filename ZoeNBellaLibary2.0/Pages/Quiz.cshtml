@@ -1,0 +1,33 @@
+@page
+@model ZoeNBellaLibary2._0.Pages.QuizModel
+@{
+    ViewData["Title"] = "Book Matching Quiz";
+}
+<div class="container">
+    <h2>Personality Book matching Quiz</h2>
+    <p>Answer a few questions and I'll match you with a book that suits your personality!</p>
+
+    <form method ="post">
+        <div class="mb-3">
+            <label class="form-label">What's your Name?</label>
+            <input asp-for="Name" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Are you into Post apocalyptic settings?</label>
+            <select asp-for="PostApocalyptic" class="form-select" required>
+                <option value="">Select one...</option>
+                <option value="1">Very Low - I prefer a soft, gentle setting</option>
+                <option value="2">Low - I slightly like Dystopian settings</option>
+                <option value="3">Moderate - I have no prefrence</option>
+                <option value="4">High - I like really like apocalyptic settings</option>
+                <option value="5">Very High - I only want to read post apocalyptic</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Find My Book Match</button>
+    </form>
+</div>
+
+
+//add more questions later 

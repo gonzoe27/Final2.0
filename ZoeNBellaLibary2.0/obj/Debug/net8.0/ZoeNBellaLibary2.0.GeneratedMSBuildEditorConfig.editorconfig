@@ -30,6 +30,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/workspaces/Final2.0/ZoeNBellaLibary2.0/Pages/Quiz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUXVpei5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/Final2.0/ZoeNBellaLibary2.0/Pages/Results.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVzdWx0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/workspaces/Final2.0/ZoeNBellaLibary2.0/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

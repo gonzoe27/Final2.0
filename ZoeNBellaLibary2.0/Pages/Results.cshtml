@@ -1,0 +1,33 @@
+@page
+@model ZoeNBellaLibary2._0.Pages.ResultsModel
+@{
+    ViewData["Title"] = "Your Book Match Results";
+}
+
+<div class="container text-center">
+    <div class="alert alert-success mt-4">
+        <h2>Congratulations @Model.UserName!</h2>
+        <p>You've been matched with a book!</p>
+        <p>@Model.Book.Book_Name!</p>
+    </div>>
+
+    <div class="row mt-4">
+        <div class="col-md-6 mx-auto">
+            <div class="card">
+                <img src="@Model.Book.ImageFileNmae" class="card-img-top" alt="@Model.Book.Book_Name" style="max-height: 300px; object-fit: contain;" />
+                <div class="card-body">
+                    <h5 class="card-title">@Model.Book.Book_Name</h5>
+                    <p class="card-text">@Model.Book.Book_Description</p>
+                    <p><strong>Post apocalyptic likeness:</strong> @Model.Book.PostApocalyptic</p>
+                    <p><strong>Rating:</strong> @Model.Book.Rating / 10</p>
+                    <p><strong>Author:</strong> @Model.Book.Book_Author</p>
+                    <p><strong>Price:</strong> $@Model.Book.Bought_Price </p>
+
+
+                    <a asp-page="/Index" class="btn btn-primary mt-3">Go to Home</a>
+                    <a asp-page="/Index" class="btn btn-secondary mt-2">Take Quiz Again</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

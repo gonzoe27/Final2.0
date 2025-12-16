@@ -14,7 +14,7 @@ namespace ZoeNBellaLibary2._0.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Book>().hasdata(
+            modelBuilder.Entity<Book>().HasData(
                 new Book
                 {
                     Book_ID = 001,
@@ -23,7 +23,8 @@ namespace ZoeNBellaLibary2._0.Data
                     Book_Author = "Suzanne Collins",
                     Bought_Price = 10,
                     ImageFileNmae = "/images/hungergames.jpg",
-                    Rating = 10
+                    Rating = 10,
+                    PostApocalyptic = 10
                 },
                 new Book
                 {
@@ -33,7 +34,8 @@ namespace ZoeNBellaLibary2._0.Data
                     Book_Author = "Suzanne Collins",
                     Bought_Price = 12,
                     ImageFileNmae = "/images/catchingfire.jpg",
-                    Rating = 9
+                    Rating = 9,
+                    PostApocalyptic = 10
                 },
                 new Book
                 {
@@ -43,7 +45,8 @@ namespace ZoeNBellaLibary2._0.Data
                     Book_Author = "Suzanne Collins",
                     Bought_Price = 15,
                     ImageFileNmae = "/images/mockingjay.jpg",
-                    Rating = 8
+                    Rating = 8,
+                    PostApocalyptic = 10
                 },
                 new Book
                 {
@@ -53,7 +56,8 @@ namespace ZoeNBellaLibary2._0.Data
                     Book_Author = "Joseph Sheridan Le Fanu",
                     Bought_Price = 8,
                     ImageFileNmae = "/images/carmilla.jpg",
-                    Rating = 8
+                    Rating = 8,
+                    PostApocalyptic = 3
                 },
                 new Book
                 {
@@ -63,7 +67,8 @@ namespace ZoeNBellaLibary2._0.Data
                     Book_Author = "Olivie Blake",
                     Bought_Price = 12,
                     ImageFileNmae = "/images/mastersofdeath.jpg",
-                    Rating = 2
+                    Rating = 2,
+                    PostApocalyptic = 2
                 },
                 new Book
                 {
@@ -73,7 +78,8 @@ namespace ZoeNBellaLibary2._0.Data
                     Book_Author = "Jennifer Niven",
                     Bought_Price = 10,
                     ImageFileNmae = "/images/allthebrightplaces.jpg",
-                    Rating = 7
+                    Rating = 7,
+                    PostApocalyptic = 1
                 },
                 new Book
                 {
@@ -83,7 +89,8 @@ namespace ZoeNBellaLibary2._0.Data
                     Book_Author = "Pat Barker",
                     Bought_Price = 12,
                     ImageFileNmae = "/images/silenceofthegirls.jpg",
-                    Rating = 10
+                    Rating = 10,
+                    PostApocalyptic = 2
                 },
                 new Book
                 {
@@ -93,7 +100,8 @@ namespace ZoeNBellaLibary2._0.Data
                     Book_Author = "Pat Barker",
                     Bought_Price = 12,
                     ImageFileNmae = "/images/womenof_Troy.jpg",
-                    Rating = 10
+                    Rating = 10,
+                    PostApocalyptic = 3
                 },
                 new Book
                 {
@@ -103,7 +111,8 @@ namespace ZoeNBellaLibary2._0.Data
                     Book_Author = "Uketsu",
                     Bought_Price = 15,
                     ImageFileNmae = "/images/strangehouses.jpg",
-                    Rating = 9
+                    Rating = 9,
+                    PostApocalyptic = 1
                 },
                 new Book
                 {
@@ -113,7 +122,8 @@ namespace ZoeNBellaLibary2._0.Data
                     Book_Author = "Susanne Collins",
                     Bought_Price = 15,
                     ImageFileNmae = "/images/sunriseonthereaping.jpg",
-                    Rating = 9
+                    Rating = 9,
+                    PostApocalyptic = 8
                 }
             );
         }
