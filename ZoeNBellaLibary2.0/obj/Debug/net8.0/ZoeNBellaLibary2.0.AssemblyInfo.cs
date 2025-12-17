@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZoeNBellaLibary2.0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf8a27d7c4fb5de235beeec5d34ed262512e328d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6fe24e756470c5c56ecb6398f433c79c29ea8ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZoeNBellaLibary2.0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZoeNBellaLibary2.0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -41,7 +41,7 @@ namespace ZoeNBellaLibary2._0.Pages
             {
                 connection.Open();
                 var command = connection.CreateCommand();
-                command.CommandText = "SELECT Comic_Id, Comic_Name FROM Comics";
+                command.CommandText = "SELECT Comics_ID, Comic_Name FROM Comics";
                 using (var reader = command.ExecuteReader())
                 {
                     while (reader.Read())
@@ -71,7 +71,7 @@ namespace ZoeNBellaLibary2._0.Pages
                     {
                         return new Comic
                         {
-                            Comic_Id = reader.GetInt32(0),
+                            Comics_ID = reader.GetInt32(0),
                             Comic_Name = reader.GetString(1),
                             Comic_Description = reader.GetString(2),
                             Personal_thoughts = reader.GetString(5),
@@ -85,7 +85,7 @@ namespace ZoeNBellaLibary2._0.Pages
         }
         public class Comic
         {
-            public int Comic_Id { get; set; }
+            public int Comics_ID { get; set; }
             public string Comic_Name { get; set; }
             public string Comic_Description { get; set; }
             public string Personal_thoughts { get; set; }
