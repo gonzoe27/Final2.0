@@ -1,0 +1,34 @@
+﻿@page
+@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@model ZoeNBellaLibary2._0.Pages.ZoComicsModel
+@{
+    ViewData["Title"] = "Zo Comics";
+}
+
+<!-----Main Page heading for Zo's Comics---->
+<h1>Zo's Recommended Comics of the month</h1>
+<!--Form that submits comic selection via Post method---->
+<form method="post">
+    <select asp-for="SelectedComic" asp-items="Model.ComicList" class="form-control">
+        <option value= "">Select a comic</option>
+    </select>
+    <!--Submit button for the form---->
+    <button type="submit" class ="btn btn-primary mt-2">Show Comic</button>
+</form>
+<!---Conditional sectoin that only displays a comic if one has been selected---->
+@if (Model.SelectedComic != null)
+{
+    <!-----display the selected comic--->
+    <div class="mt-4">
+        <!---Display the selected comic as a header---->
+        <h2>@Model.SelectedComic.Comic_Name</h2>
+        <!---Display the description of the selected comic---->
+        <p>@Model.SelectedComic.Comic_Description</p>
+        <!--Display a formated price with 2 decimals---->
+        <p>Price:$@Model.SelectedComic.Comic_Price.ToString("F2")</p>
+        <!-----Display the selected comics Personal thoughts----->
+       <!--- <p>Zo's thoughts: </p>  --->
+       <!----Display the selected comics image with a maximum width and alt text for accessibility----->
+       <img src="/images/@Model.SelectedComic.ImageFileName" alt="@Model.SelectedComic.Comic_Name" style="max-width: 300px;" />
+    </div>
+}

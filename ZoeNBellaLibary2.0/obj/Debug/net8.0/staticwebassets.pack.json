@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/images/AbsoluteBatman.jpg",
+      "PackagePath": "staticwebassets/images/AbsoluteBatman.jpg"
+    },
+    {
+      "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/images/AbsoluteSuperman.jpg",
+      "PackagePath": "staticwebassets/images/AbsoluteSuperman.jpg"
+    },
+    {
       "Id": "/workspaces/Final2.0/ZoeNBellaLibary2.0/wwwroot/images/allthebrightplaces.jpg",
       "PackagePath": "staticwebassets/images/allthebrightplaces.jpg"
     },
